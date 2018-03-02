@@ -54,6 +54,11 @@ img{
 	max-width: 100%;
 }
 
+.row
+p{
+  text-align: center;
+  font-style: italic;
+}
 
 @media (max-width: 575px) {
 
