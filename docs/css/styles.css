@@ -1,0 +1,64 @@
+body {
+    max-width: 950px;
+    margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited, a.current {
+	color: #47b;
+}
+
+a:hover, a:active {
+	color: #999;
+	text-decoration: none;
+}
+
+p.alt{
+    padding-top: 3px;
+    color: #999;
+}
+
+.cond-right{
+	text-align: right;
+}
+
+h1 {
+	font-size:1.7em;
+	font-weight:500;
+	margin-top:0px;
+	color:#4c4c4c;
+}
+
+h2 {
+	font-size:1.2em;
+	font-weight: 500;
+	margin: 1em 0 0.5em;
+	color:#999;
+}
+
+h3{
+	font-size:1em;
+	font-weight: 500;
+	color:#000;
+	margin: 0.25em 0 0.25em;
+}
+
+.profile{
+	max-width: 100%;
+}
+
+
+@media (max-width: 575px) {
+
+    .cond-right{
+        text-align: left;
+    }
+
+	.profile{
+		max-width: 200px;
+	}
+
+}
