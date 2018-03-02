@@ -45,7 +45,11 @@ h3{
 	color:#000;
 	margin: 0.25em 0 0.25em;
 }
-
+img{
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border: 2px solid #f32853;
+}
 .profile{
 	max-width: 100%;
 }
