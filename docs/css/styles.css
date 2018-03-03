@@ -1,5 +1,5 @@
 body {
-    max-width: 950px;
+    /* max-width: 1050px; */
     margin: auto;
 }
 
@@ -49,6 +49,15 @@ img{
   border-radius: 150px;
   -webkit-border-radius: 150px;
   border: 5px solid #3E88A9;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.news{
+  font-size:0.75em;
+	color:#000;
+	margin: 0.25em 0 0.25em;
+
 }
 .profile{
 	max-width: 100%;
